@@ -52,7 +52,7 @@ function sortearAmigo(){
         resultadoElecccion.innerHTML="";
         
         let li= document.createElement("li");
-        li.textContent = `El amigo secrero es: ${amigoElegindo}`;
+        li.textContent = `El amigo secreto sorteado es: ${amigoElegindo}`;
         resultadoElecccion.appendChild(li);
     }
 }
